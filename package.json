@@ -1,36 +1,35 @@
 {
-  "name": "@ctx-core/sleep",
-  "version": "5.0.0",
-  "description": "ctx-core sleep",
-  "keywords": [
-    "ctx-core",
-    "sleep"
-  ],
-  "homepage": "https://github.com/ctx-core/sleep#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/sleep/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/sleep/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "c9604c67864e3a616497fab513005de3d18ed3b0"
+	"name": "@ctx-core/sleep",
+	"version": "5.0.0",
+	"description": "ctx-core sleep",
+	"keywords": [
+		"ctx-core",
+		"sleep"
+	],
+	"homepage": "https://github.com/ctx-core/sleep#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/sleep/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/sleep/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
