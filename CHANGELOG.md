@@ -1,5 +1,11 @@
 # @ctx-core/sleep
 
+## 6.0.11
+
+### Patch Changes
+
+- fix: type issues
+
 ## 6.0.10
 
 ### Patch Changes
